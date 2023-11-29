@@ -1,6 +1,6 @@
 # hangman-game
 Hangman browser game
-This is a random generated word letter guessing game on a browser. In this game, you will need to use letters to guess the appropriate word. You get however many guesses pertaining to how many letters there are in the word. Each time you make a wrong guess, it is a life lost. A hint is provided in the beginning to help narrow down the generated word.
+This is a random generated word letter guessing game on a browser. In this game, you will need to use letters to guess the appropriate word. You get 6 lives and each life lost is a drawn element of a stick figure. A hint is provided in the beginning to help narrow down the generated word.
 
 ## Wireframes
 ![Hangman drawio](https://github.com/westside7/hangman-game/assets/44102394/a69f7d61-134c-49f9-9725-ca016f1d08c6)
