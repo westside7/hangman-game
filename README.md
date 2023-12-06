@@ -15,4 +15,5 @@ As a user, I want the ability to...
 
 Technologies used: JavaScript, HTML, CSS
 
+Deployment Link: https://westside7.github.io/hangman-game/
 
