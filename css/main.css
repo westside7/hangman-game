@@ -2,58 +2,85 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
   }
-body {
-    background-color: lightsteelblue;
-}
-.container {
-    font-size: 22px;
-    background-color: white;
-    height: 100vh;
-    width: 120vmin;
-    position: absolute;
+  body {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    top: 15%;
-    left: 20%;
-    padding: 2vmin;
-    border-radius: 3vmin;
-}
-h1 {
-    margin-top: 3vmin;
-    margin-bottom: 2vmin;
-    text-align: center;
-    font-size: 50px;
-}
-.same-line {
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background-color: lightsteelblue;
+  }
+  .container {
+    width: 860px;
+    background-color: whitesmoke;
     display: flex;
-}
-#hint {
-    margin-right: 20px;
-    align-items: flex-start;
-}
-input {
-    margin-top: 1vmin;
-    margin-right: 1.5vmin;
-    padding: 1vmin;
-    width: 40px;
+    gap: 70px;
+    align-items: flex-end;
+    padding: 60px 40px;
+    border-radius: 10px;
+  }
+  canvas {
+    max-width: 270px;
+    display: block;
+    margin: auto;
+    border: 10px solid lightsteelblue;
+    border-radius: 10px;
+  }
+  .image h1 {
+    font-size: 20px;
+    margin-top: 20px;
     text-align: center;
-    font-size: 22px;
-}
-button {
-    margin-top: 1vmin;
-    padding: 1vmin;
-    background-color: lightpink;
-    color: black;
-    border-radius: 1vmin;
-    border-color: lightpink;
-    font-size: 2vmin;
-}
-#reset{
-    margin-top: 3vmin;
-    font-size: 4vmin;
+    text-transform: uppercase;
+  }
+  .word-display {
     display: flex;
-}
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .word-display .letter {
+    width: 28px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+  }
+  .word-display .letter.guessed {
+    border-color: transparent;
+    margin: -40px 0 35px;
+  }
+  .game-box .numGuesses b {
+    color: red;
+  }
+  .game-box .incorrect-letters b {
+    color: red;
+  }
+  .game-box #input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2.2vh;
+    width: 4vmin;
+    padding: 0.5vmin;
+    text-align: center;
+  }
+  .game-box #guess {
+    background-color: lightsteelblue;
+    border-color: lightsteelblue;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100px;
+  }
+  .game-box #again {
+    background-color: lightsteelblue;
+    border-color: lightsteelblue;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 150px;
+  }

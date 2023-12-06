@@ -7,31 +7,34 @@
     <script defer src="js/main.js"></script>
     <title>Hangman</title>
 </head>
-<h1>HANGMAN GAME</h1>
 <body>
-    <div class = "container">
-        <div class = "same-line">
-            <div id = "hint">
-                Hint: 
-            </div>
-            <div id = "lives-left">
-                Remaining Lives
-            </div>
+    <div class="container">
+        <div class="image">
+          <canvas id="canvas"></canvas>
+          <h1>Snowman Game</h1>
         </div>
-        <div id = "hangman">
-            drawing of hangman
+        <div class = "game-box">
+          <ul class = "word-display">
+          </ul>
+          <h4 class = "category">
+            Category: <b></b>
+          </h4>
+          <h4 class = "numGuesses">
+            Guesses:
+            <b>0</b> / 6
+          </h4>
+          <h4 class = "status">
+          </h4>
+          <h4 class = "guessed-letters">
+            Guessed Letters:
+            <b></b>
+          </h4>
+          <div class = "answer">
+            <input type = "text" id = "input" maxlength="1">
+            <button id = "guess">GUESS</button>
+          </div>
+          <button id = "again">PLAY AGAIN</button>
         </div>
-        <div id = "Incorrect-letters">
-            Incorrect Letters:
-        </div>
-        <div id = "word">
-        
-        </div>
-        <div id = "in">
-            <input>
-            <button id = "submit">SUBMIT</button>
-            <button id = "reset">NEW GAME</button>
-        </div>
-    </div> 
+      </div>
 </body>
 </html>
