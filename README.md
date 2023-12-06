@@ -17,3 +17,7 @@ Technologies used: JavaScript, HTML, CSS
 
 Deployment Link: https://westside7.github.io/hangman-game/
 
+## What's next?
+- Add selecable categories
+- refine UI
+
