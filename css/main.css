@@ -14,6 +14,7 @@
   }
   .container {
     width: 860px;
+    min-height: 50vh;
     background-color: whitesmoke;
     display: flex;
     gap: 70px;
@@ -23,6 +24,7 @@
   }
   canvas {
     max-width: 270px;
+    min-height: 240px;
     display: block;
     margin: auto;
     border: 10px solid lightsteelblue;
@@ -57,7 +59,7 @@
   .game-box .numGuesses b {
     color: red;
   }
-  .game-box .incorrect-letters b {
+  .game-box .guessed-letters b {
     color: red;
   }
   .game-box #input {
