@@ -17,6 +17,7 @@ In the middle of the game
 After game is lost
 ![Screenshot 2023-12-07 at 6 42 47 AM](https://github.com/westside7/hangman-game/assets/44102394/864d5698-5fc7-49fd-9b37-4aeb815344b1)
 
+## User Stories
 As a user, I want the ability to... 
   - reset game
   - enter a letter
@@ -25,9 +26,11 @@ As a user, I want the ability to...
   - know when I lost the game
   - know what the word is after I lost the game
 
-Technologies used: JavaScript, HTML, CSS
+## Technologies used
+JavaScript, HTML, CSS
 
-Deployment Link: https://westside7.github.io/hangman-game/
+## Deployment Link
+https://westside7.github.io/hangman-game/
 
 ## What's next?
 - Add selecable categories
