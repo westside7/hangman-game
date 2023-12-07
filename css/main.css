@@ -24,7 +24,6 @@
   }
   canvas {
     max-width: 270px;
-    min-height: 240px;
     display: block;
     margin: auto;
     border: 10px solid lightsteelblue;
