@@ -101,9 +101,9 @@ const wordBank = [
   
       // determines if won
       if (incorrectGuesses === MAX_WRONG_GUESS) {
-          statusDisplay.innerHTML = `Evil snowman will rule the world! The word was ${currentWord}.`;
+          statusDisplay.innerHTML = `Oh no! Stick man created! The word was ${currentWord}.`;
       } else if (wordDisplay.innerHTML === currentWord.split('').join(' ') + ' ') {
-          statusDisplay.innerHTML = 'Evil snowman self-destructed';
+          statusDisplay.innerHTML = 'Stick man creation halted!';
       } else {
           statusDisplay.innerHTML = '';
       }
