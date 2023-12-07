@@ -30,7 +30,7 @@ As a user, I want the ability to...
 JavaScript, HTML, CSS
 
 ## Deployment Link
-https://westside7.github.io/hangman-game/
+https://westside7.github.io/stickman-game/
 
 ## What's next?
 - Add selecable categories
